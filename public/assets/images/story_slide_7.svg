@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#160936"/>
+      <stop offset="50%" stop-color="#0f0528"/>
+      <stop offset="100%" stop-color="#070214"/>
+    </linearGradient>
+    <filter id="shadow7" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#38bdf8" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg7)"/>
+
+  <!-- Weather App Card -->
+  <g transform="translate(80, 120)">
+    <rect x="0" y="0" width="300" height="200" rx="24" fill="#0c0520" stroke="#38bdf8" stroke-width="5" filter="url(#shadow7)"/>
+    <text x="150" y="45" text-anchor="middle" fill="#38bdf8" font-size="18" font-weight="900" font-family="sans-serif">🌤️ WEATHER FORECAST</text>
+    <text x="150" y="115" text-anchor="middle" font-size="56">🌤️</text>
+    <text x="150" y="165" text-anchor="middle" fill="#facc15" font-size="22" font-weight="900" font-family="sans-serif">P(rain) = 30%</text>
+  </g>
+
+  <!-- Game Show Card -->
+  <g transform="translate(420, 120)">
+    <rect x="0" y="0" width="300" height="200" rx="24" fill="#0c0520" stroke="#f43f5e" stroke-width="5" filter="url(#shadow7)"/>
+    <text x="150" y="45" text-anchor="middle" fill="#f43f5e" font-size="18" font-weight="900" font-family="sans-serif">🎬 GAME SHOW VAULT</text>
+    <g transform="translate(70, 75)">
+      <rect x="0" y="0" width="46" height="70" rx="8" fill="#f43f5e"/>
+      <rect x="58" y="0" width="46" height="70" rx="8" fill="#4ade80"/>
+      <rect x="116" y="0" width="46" height="70" rx="8" fill="#facc15"/>
+    </g>
+    <text x="150" y="175" text-anchor="middle" fill="#facc15" font-size="20" font-weight="900" font-family="sans-serif">1 in 3 Winning Door</text>
+  </g>
+
+  <!-- Sports Penalty Kick Card -->
+  <g transform="translate(250, 360)">
+    <rect x="0" y="0" width="300" height="190" rx="24" fill="#0c0520" stroke="#4ade80" stroke-width="5" filter="url(#shadow7)"/>
+    <text x="150" y="42" text-anchor="middle" fill="#4ade80" font-size="18" font-weight="900" font-family="sans-serif">⚽ SPORTS STRATEGY</text>
+    <text x="150" y="110" text-anchor="middle" font-size="54">⚽</text>
+    <text x="150" y="160" text-anchor="middle" fill="#facc15" font-size="22" font-weight="900" font-family="sans-serif">80% Penalty Goal Rate</text>
+  </g>
+
+  <rect x="200" y="30" width="400" height="44" rx="22" fill="#0c0520" stroke="#facc15" stroke-width="3"/>
+  <text x="400" y="59" text-anchor="middle" fill="#facc15" font-size="18" font-weight="900" font-family="sans-serif">
+    ✦ CHANCE QUIETLY SHAPES DECISIONS ✦
+  </text>
+</svg>
